@@ -6,7 +6,7 @@
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
-    "deploy": "npm run build && gh-pages -d dist"
+    "deploy": "rm -rf dist && npm run build && gh-pages -d dist"
   },
   "dependencies": {
     "vue": "^3.0.5"
